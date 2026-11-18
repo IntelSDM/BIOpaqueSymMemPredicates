@@ -10,6 +10,12 @@ This paper proved its capability to defeat Angr, BAP, And Triton [Manufacturing 
 <img width="1982" height="960" alt="image" src="https://github.com/user-attachments/assets/6c3eb150-5697-405d-ae10-5bc5680e9bc5" /><br>
 
 
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
+
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
 * Download [VCPKG](https://github.com/microsoft/vcpkg)
